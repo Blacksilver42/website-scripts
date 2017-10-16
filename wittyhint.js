@@ -1,5 +1,4 @@
 var hints = [
-  "Blacksilver's wobsite", 
   "Nervous energy",
   "Gravitas free zone",
   "Quietly confident",
@@ -9,9 +8,11 @@ var hints = [
   "Wait, what?",
   "For SCIENCE!",
   "404 Hint not found",
+  "<p id=\"witty-hint\"></p>
   "I see no practical use for this... Time well spent.",
   "hints[Math.floor(Math.random()*hints.length)]",
   "Making witty loading hints...",
+  "Studing for semi-major axis exam..."
   "<202e>", 
   "Undefined"
 ];
