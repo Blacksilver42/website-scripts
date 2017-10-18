@@ -16,7 +16,7 @@ var hints = [
   "<202e>", 
   "Undefined",
   "s/game/nuclear raptor/gi"
-  "If fighting is sure to result in victory, then you must fight! Sun Tzu said that, and I think he knows a little more about fighting than you do pal, because he invented it! and then he perfected it so that no living man could best him in the ring of honour. And then he used his fight-money to buy two of every animal on earth, then he herded them all onto a boat, and then he beat the c*** out of every single one. And from that day forward, anytime a bunch of animals are together in one place, it's called a ZOO!<br>UNLESS IT'S A FARM!"	
+  "If fighting is sure to result in victory, then you must fight! Sun Tzu said that, and I think he knows a little more about fighting than you do pal, because HE INVENTED IT! And then he perfected it so that no living man could best him in the ring of honour. And then he used his fight-money to buy two of every animal on earth, then he herded them all onto a boat, and then he beat the c*** out of every single one! And from that day forward, anytime a bunch of animals are together in one place, it's called a ZOO!<br>UNLESS IT'S A FARM!"	
 ];
 
 function newhint(){
