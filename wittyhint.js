@@ -8,15 +8,26 @@ var hints = [
   "Wait, what?",
   "For SCIENCE!",
   "404 Hint not found",
-  "<p id=\"witty-hint\"></p>",
+  "&lt;span id=\"witty-hint\"&gt;&lt;/span&gt;",
   "I see no practical use for this... Time well spent.",
   "hints[Math.floor(Math.random()*hints.length)]",
   "Making witty loading hints...",
-  "Studing for semi-major axis exam..."
+  "Studing for semi-major axis exam...",
   "<202e>", 
-  "Undefined"
+  "Undefined",
+  "s/game/nuclear raptor/gi"
 ];
 
-$(document).ready(function(){
-  $("#witty-hint").html("<i>"+hints[Math.floor(Math.random()*hints.length)]+"</i>")
-});
+function newhint(){
+
+  $("#witty-hint").html(hints[Math.floor(Math.random()*hints.length)])
+}
+
+$(document).ready(newhint);
+
+
+$(document).keypress(function(e){
+	if (e.key == 'h'){
+		newhint();
+	}
+})
