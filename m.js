@@ -3,7 +3,7 @@
 var menu = false;
 
 function togglenav(){
-  if(menu){
+  if(!menu){
     $("#m-nav").show();
     menu = true;
   } else {
