@@ -12,6 +12,6 @@ function thousep2(n) {
         }
         return x1 + x2;
     } else {
-        return nStr;
+        return n;
     }
 }
