@@ -4,10 +4,10 @@ var menu = false;
 
 function togglenav(){
   if(!menu){
-    $("#m-nav").show();
+    $("#nav").show();
     menu = true;
   } else {
-    $("#m-nav").hide()
+    $("#nav").hide()
     menu = false;
   }
 }
