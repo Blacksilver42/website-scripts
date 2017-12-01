@@ -7,8 +7,3 @@ $(document).ready(function(){
 		console.log("Desktop");
 	}
 });
-
-$(document).keypress(function(e){
-	if(e.key == 'e')
-		window.open("/THESYSTEM", target="_self");
-});
